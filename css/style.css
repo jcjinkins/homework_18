@@ -1,5 +1,3 @@
-.jumbotron{
-    background-image: url(‘images/Headshot.png’);
-    background-size: cover;
-    background-repeat: no-repeat;
-   }
+h1 {
+    font-family: 'Bree Serif', serif;
+}
