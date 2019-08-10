@@ -2,121 +2,183 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homework 18</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homework 18</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145439082-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <link href="css/style.css" rel="stylesheet">
 
-  gtag('config', 'UA-145439082-1');
-</script>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145439082-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-145439082-1');
+  </script>
 
 
 
 </head>
 
+
+
 <body>
 
-    <!--Navbar Image and text -->
+  <!--Navbar Image and text -->
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="images/JJ Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-         <a class="navbar-brand" href="#">Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+    <img src="images/JJ Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    <a class="navbar-brand" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
 
-<!--Not using <li class="nav-item active">
+        <!--Not using <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>-->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Header</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Concept Projects</a>
-            </li>
-            <li class="nav-item">
-                    <a class="nav-link" href="#">Footer</a>
-                  </li>
-          </ul>
-        </div>
-      </nav>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Header</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Concept Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Footer</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <!--Jumbotron-->
+  <!--Jumbotron-->
 
-    <div class="jumbotron jumbotron-fluid" style="background-color: #222E50">
-        <div class="container">
-          <h1 class="display-4" style="color:white">Jessica Jinkins &nbsp;  <img src="images/Headshot.png" width="100" height="100"></h1>
-          <p class="lead" style="color:white">UX Researcher | jessjinkins@gmail.com</p>
-          
-        </div>
+  <div class="jumbotron jumbotron-fluid" style="background-color: #222E50">
+    <div class="container">
+      <h1 class="display-4" style="color:white">Jessica Jinkins &nbsp; <img src="images/Headshot.png" width="100"
+          height="100"></h1>
+      <p class="lead" style="color:white">UX Researcher | jessjinkins@gmail.com</p>
+
+<!--Button in Jumbotron-->  
+<button class="resume-button "  >
+  <span> <a href="resume.html">Resume</a> </span>
+  
+</button>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <!--Cards-->
+
+  <div class="container">
+    <h2>Concept Projects</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/Stopgap.png" class="card-img" style="max-width: 540px;" alt="...">
+        <h2>Stopgap</h2>
+        <p>People hate when their flights are canceled. With insights gathered from interviews with four frequent
+          travelers, I designed a travel app that recommends alternative flight, car and train routes when travel is
+          interrupted. </p>
+        <!--Not currently using this button, saving for later<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
       </div>
+      <div class="col-md-4">
+        <img src="images/Icebreaker.png" class="card-img" style="max-width: 540px;" alt="...">
+        <h2>Icebreaker</h2>
+        <p>Networking is hard. Through five interviews conducted at a local coworking space, my teammate and I created
+          an app to make introductions easier. The app uses bluetooth to connect you with people around you who have
+          similiar interests.</p>
+        <!--Not currently using this button, saving for later<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+      </div>
+      <div class="col-md-4">
+        <img src="images/ZBG.png" class="card-img" style="max-width: 540px;" alt="...">
+        <h2>Zilker Botanical Gardens</h2>
+        <p>The 2010 ZBG website was busy, inconsistent and challenging to navigate. Through 10 in-person interviews with
+          users and stakeholders we aligned on a redesign goal of creating an inviting website that builds community.
+        </p>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#zilker">
+    Example Modal
+  </button>
+        <!--Not currently using this button, saving for later<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+      </div>
+    </div>
+  </div>
+<br>
+<br>
+
+  <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Let's stay in touch</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+  
+      
+    </form>
 
 
 
+  </main>
+
+  <!--Break-->
+
+  <br>
+  <hr>
+
+  <!--Footer-->
 
 
-        <!--Cards-->
-
-        <div class="container">
-            <h2>Concept Projects</h2>
-            
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="images/Stopgap.png" class="card-img" style="max-width: 540px;" alt="...">
-                    <h2>Stopgap</h2>
-                    <p>People hate when their flights are canceled. With insights gathered from interviews with four frequent travelers, I designed a travel app that recommends alternative flight, car and train routes when travel is interrupted. </p>
-  <!--Not currently using this button, saving for later<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>--> 
-                </div>
-                <div class="col-md-4">
-                        <img src="images/Icebreaker.png" class="card-img" style="max-width: 540px;" alt="...">
-                    <h2>Icebreaker</h2>
-                    <p>Networking is hard. Through five interviews conducted at a local coworking space, my teammate and I created an app to make introductions easier. The app uses bluetooth to connect you with people around you who have similiar interests.</p>
-             <!--Not currently using this button, saving for later<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>--> 
-                </div>
-                <div class="col-md-4">
-                        <img src="images/ZBG.png" class="card-img" style="max-width: 540px;" alt="...">
-                    <h2>Zilker Botanical Gardens</h2>
-                    <p>The 2010 ZBG website was busy, inconsistent and challenging to navigate. Through 10 in-person interviews with users and stakeholders we aligned on a redesign goal of creating an inviting website that builds community. </p>
-                   <!--Not currently using this button, saving for later<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>--> 
-                </div>
-            </div>
-        </div>
-    </main>
-
- <!--Break-->
-
-    <br>
-    <hr>
-
-    <!--Footer-->
+  <footer class="container">
+    <p>&copy; Jessica Jinkins 2019</p>
+  </footer>
 
 
-    <footer class="container">
-        <p>&copy; Jessica Jinkins 2019</p>
-    </footer>
+    <!--Modal-->
+  <div class="modal fade" id="zilker" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Zilker Botanical Gardens</h4>
+          </div>
+          <div class="modal-body">
+            <p>The 2010 ZBG website was busy, inconsistent and challenging to navigate. Through 10 in-person interviews with users and stakeholders we aligned on a redesign goal of creating an inviting website that builds community.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Done</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </body>
 
